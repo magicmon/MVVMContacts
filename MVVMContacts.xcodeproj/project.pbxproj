@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A387C304B9D0AAF996E560A /* Pods_MVVMContacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFFF9C85AC206792B392F526 /* Pods_MVVMContacts.framework */; };
 		0F81E53C21F15A26009C9DB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81E53B21F15A26009C9DB7 /* AppDelegate.swift */; };
 		0F81E54121F15A26009C9DB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F81E53F21F15A26009C9DB7 /* Main.storyboard */; };
 		0F81E54321F15A28009C9DB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F81E54221F15A28009C9DB7 /* Assets.xcassets */; };
@@ -15,6 +14,15 @@
 		0F81E55121F15A28009C9DB7 /* MVVMContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81E55021F15A28009C9DB7 /* MVVMContactsTests.swift */; };
 		0F81E55C21F15A82009C9DB7 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81E55B21F15A82009C9DB7 /* ContactViewController.swift */; };
 		0F81E55E21F15BBE009C9DB7 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81E55D21F15BBE009C9DB7 /* MainViewController.swift */; };
+		0F81E56121F16E38009C9DB7 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81E56021F16E38009C9DB7 /* Person.swift */; };
+		0F81E56421F16E7B009C9DB7 /* TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81E56321F16E7B009C9DB7 /* TableDataSource.swift */; };
+		0F81E56821F16EEE009C9DB7 /* PersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81E56621F16EEE009C9DB7 /* PersonCell.swift */; };
+		0F81E56B21F16F25009C9DB7 /* PersonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81E56A21F16F25009C9DB7 /* PersonRow.swift */; };
+		0F81E56E21F16F58009C9DB7 /* ContactProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81E56D21F16F58009C9DB7 /* ContactProvider.swift */; };
+		0F81E57121F16F8B009C9DB7 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81E57021F16F8B009C9DB7 /* ContactViewModel.swift */; };
+		0F81E57321F1724A009C9DB7 /* Storyboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81E57221F1724A009C9DB7 /* Storyboard+Extension.swift */; };
+		0F81E57521F173C4009C9DB7 /* TableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F81E57421F173C4009C9DB7 /* TableRow.swift */; };
+		D57E4405A8FF31ACC5AB31CF /* Pods_MVVMContacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFFF9C85AC206792B392F526 /* Pods_MVVMContacts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +47,14 @@
 		0F81E55221F15A28009C9DB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F81E55B21F15A82009C9DB7 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		0F81E55D21F15BBE009C9DB7 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		0F81E56021F16E38009C9DB7 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		0F81E56321F16E7B009C9DB7 /* TableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataSource.swift; sourceTree = "<group>"; };
+		0F81E56621F16EEE009C9DB7 /* PersonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonCell.swift; sourceTree = "<group>"; };
+		0F81E56A21F16F25009C9DB7 /* PersonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonRow.swift; sourceTree = "<group>"; };
+		0F81E56D21F16F58009C9DB7 /* ContactProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactProvider.swift; sourceTree = "<group>"; };
+		0F81E57021F16F8B009C9DB7 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
+		0F81E57221F1724A009C9DB7 /* Storyboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Extension.swift"; sourceTree = "<group>"; };
+		0F81E57421F173C4009C9DB7 /* TableRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRow.swift; sourceTree = "<group>"; };
 		7591450E3B104F1F3F8FA511 /* Pods-MVVMContacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMContacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMContacts/Pods-MVVMContacts.debug.xcconfig"; sourceTree = "<group>"; };
 		C0051CD860B2B2B485A2B2DC /* Pods-MVVMContacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMContacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMContacts/Pods-MVVMContacts.release.xcconfig"; sourceTree = "<group>"; };
 		CFFF9C85AC206792B392F526 /* Pods_MVVMContacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMContacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,7 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A387C304B9D0AAF996E560A /* Pods_MVVMContacts.framework in Frameworks */,
+				D57E4405A8FF31ACC5AB31CF /* Pods_MVVMContacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,9 +102,10 @@
 		0F81E53A21F15A26009C9DB7 /* MVVMContacts */ = {
 			isa = PBXGroup;
 			children = (
+				0F81E57621F17466009C9DB7 /* Contact */,
 				0F81E53B21F15A26009C9DB7 /* AppDelegate.swift */,
+				0F81E57221F1724A009C9DB7 /* Storyboard+Extension.swift */,
 				0F81E55D21F15BBE009C9DB7 /* MainViewController.swift */,
-				0F81E55B21F15A82009C9DB7 /* ContactViewController.swift */,
 				0F81E53F21F15A26009C9DB7 /* Main.storyboard */,
 				0F81E54221F15A28009C9DB7 /* Assets.xcassets */,
 				0F81E54421F15A28009C9DB7 /* LaunchScreen.storyboard */,
@@ -104,6 +121,61 @@
 				0F81E55221F15A28009C9DB7 /* Info.plist */,
 			);
 			path = MVVMContactsTests;
+			sourceTree = "<group>";
+		};
+		0F81E55F21F16E17009C9DB7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0F81E56021F16E38009C9DB7 /* Person.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0F81E56221F16E6B009C9DB7 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				0F81E56321F16E7B009C9DB7 /* TableDataSource.swift */,
+				0F81E57421F173C4009C9DB7 /* TableRow.swift */,
+				0F81E56A21F16F25009C9DB7 /* PersonRow.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		0F81E56521F16ED6009C9DB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F81E56621F16EEE009C9DB7 /* PersonCell.swift */,
+				0F81E55B21F15A82009C9DB7 /* ContactViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F81E56C21F16F50009C9DB7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F81E56D21F16F58009C9DB7 /* ContactProvider.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0F81E56F21F16F7D009C9DB7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0F81E57021F16F8B009C9DB7 /* ContactViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0F81E57621F17466009C9DB7 /* Contact */ = {
+			isa = PBXGroup;
+			children = (
+				0F81E56F21F16F7D009C9DB7 /* ViewModel */,
+				0F81E56C21F16F50009C9DB7 /* Model */,
+				0F81E56521F16ED6009C9DB7 /* View */,
+				0F81E56221F16E6B009C9DB7 /* DataSource */,
+				0F81E55F21F16E17009C9DB7 /* Data */,
+			);
+			path = Contact;
 			sourceTree = "<group>";
 		};
 		390D7C78A03E28F49A8DF5D6 /* Pods */ = {
@@ -251,7 +323,6 @@
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/RxSwiftExt/RxSwiftExt.framework",
-				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -259,7 +330,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftExt.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -273,9 +343,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F81E56821F16EEE009C9DB7 /* PersonCell.swift in Sources */,
 				0F81E53C21F15A26009C9DB7 /* AppDelegate.swift in Sources */,
+				0F81E56B21F16F25009C9DB7 /* PersonRow.swift in Sources */,
 				0F81E55C21F15A82009C9DB7 /* ContactViewController.swift in Sources */,
+				0F81E56421F16E7B009C9DB7 /* TableDataSource.swift in Sources */,
+				0F81E56121F16E38009C9DB7 /* Person.swift in Sources */,
 				0F81E55E21F15BBE009C9DB7 /* MainViewController.swift in Sources */,
+				0F81E57121F16F8B009C9DB7 /* ContactViewModel.swift in Sources */,
+				0F81E57521F173C4009C9DB7 /* TableRow.swift in Sources */,
+				0F81E57321F1724A009C9DB7 /* Storyboard+Extension.swift in Sources */,
+				0F81E56E21F16F58009C9DB7 /* ContactProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +520,10 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVVMContacts/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.magicmon.MVVMContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -460,7 +541,10 @@
 				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MVVMContacts/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.magicmon.MVVMContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -476,7 +560,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MVVMContactsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.magicmon.MVVMContactsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -492,7 +580,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MVVMContactsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.magicmon.MVVMContactsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

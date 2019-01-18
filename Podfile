@@ -8,5 +8,4 @@ target 'MVVMContacts' do
     pod 'RxSwift'
     pod 'RxCocoa'
     pod 'RxSwiftExt'
-    pod 'RxTest'
 end
